@@ -1,0 +1,24 @@
+* C:\Users\ushio\OneDrive\study\uol\ELEC271\ex5\part1\part1B.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 05 18:17:21 2020
+
+
+
+** Analysis setup **
+.DC LIN V_Vce 0 -20 -.5 
++ LIN I_Ib 0 -40e-6 -4e-6 
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "part1B.net"
+.INC "part1B.als"
+
+
+.probe
+
+
+.END

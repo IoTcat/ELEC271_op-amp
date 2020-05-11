@@ -1,0 +1,7 @@
+* Schematics Netlist *
+
+
+
+I_Ib         0 $N_0001 DC 0A  
+V_Vce         $N_0002 0   
+Q_Q2         $N_0002 $N_0001 0 Q2N2907A

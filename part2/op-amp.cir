@@ -1,0 +1,24 @@
+* C:\Users\ushio\OneDrive\study\uol\ELEC271\ex5\part2\op-amp.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Thu May 07 16:56:26 2020
+
+
+
+** Analysis setup **
+.ac OCT 1000 .01 1e12
+.OP 
+.STMLIB "op-amp.stl"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "op-amp.net"
+.INC "op-amp.als"
+
+
+.probe
+
+
+.END
